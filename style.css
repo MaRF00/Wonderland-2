@@ -1,18 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 .container{
-    margin-top: -10px;
     margin-left: -8px;
     background-color: #202738;
+    display: inline;
 }
 
 .navbar {
+    margin-top: -20px;
     text-decoration: none;
     display: flex;
     background-color: #202738;
     border-radius: 75px;
     color: white;
 }
+
+.col li{
+    margin-top: 30px;
+    text-decoration: none;
+    list-style: none; 
+    margin-left: 15px;
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    border: white 2px solid;
+    font-family: 'Bungee';
+ }
+
+ #col2 {
+     margin-left: 75px;
+ }
 
 .navbar *{
     text-decoration: none;
@@ -22,7 +40,7 @@
 #image {
     margin-top: 10px;
     margin-bottom: 10px;
-    margin-left: 250px;
+    margin-left: 200px;
     text-align: left;
     width: 153px;
     border-radius: 75px;
@@ -35,11 +53,34 @@
 }
 
 .navbar h1{
-    font-size: 60px;
+    font-size: 7vh;
     margin-top: 20px;
     margin-bottom: 2px;
-    margin-left: 200px;
+    margin-left: 130px;
     font-family: 'Bungee';
     color: #ECEB45;
 }
 
+.toplist{
+    display: inline-block;
+    margin-left: 200px;
+    background-color: yellow;
+    border-radius: 50px;
+}
+
+.toplist h1{
+    font-family: 'Bungee';
+}
+
+.toplist ul{
+    margin-left: 115px;
+}
+
+.toplist li{
+    font-size: 25px;
+    list-style: none;
+}
+
+.add{
+    background-color: violet;
+}
